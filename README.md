@@ -15,7 +15,7 @@ To run this application locally, follow these steps:
 2. Navigate into the cloned directory:
 
     ```bash
-    cd mini-transaction-app
+    cd <Your-folder>
     ```
 
 3. Install the dependencies:
@@ -51,7 +51,7 @@ You can explore the API documentation or the source code to understand how to in
 
 ## API Documentation
 
-The API documentation is available via Swagger UI. Once the application is running locally, you can access the API documentation by navigating to http://localhost:3000/api-docs in your web browser.
+The API documentation is available via POSTMAN. You can access the API documentation by navigating to <url> in your web browser.
 
 ## Architectural Decisions
 
