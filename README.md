@@ -51,7 +51,7 @@ You can explore the API documentation or the source code to understand how to in
 
 ## API Documentation
 
-The API documentation is available via POSTMAN. You can access the API documentation by navigating to <url> in your web browser.
+The API documentation is available via POSTMAN. You can access the API documentation by navigating to <https://documenter.getpostman.com/view/26737003/2sA2rDvzfr> in your web browser.
 
 ## Architectural Decisions
 
@@ -59,7 +59,7 @@ The API documentation is available via POSTMAN. You can access the API documenta
 
 Nest.js: Chosen for its modular and scalable architecture, as well as its extensive ecosystem of libraries.
 MongoDB: Selected as the database for its flexibility and scalability, suitable for handling transactional data.
-Docker: Utilized for containerization to ensure easy deployment and scalability of the application.
+Docker: Utilized for containerization to ensure easy deployment and scalability of the application. There is a docker setup file, which explain how to run create an image and run a container
 
 ## Project Structure
 The project follows a modular structure, with separate modules for authentication, transactions, users and accounts and are all save in a folder called modules. This allows for better organization and separation of concerns.

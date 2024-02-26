@@ -1,0 +1,10 @@
+This is a basic docker deployment for nest js app
+
+- in the docker file contains the instruction to  build an image of node:20 and above
+- then we build our image using this instruction example 
+- docker build -t <app name>;
+- once the image has been built, we can push it to our local repository 
+- or it can be pull from my local repository docker push seunola/learnly-app:latest
+- then to run it, we could use dockercompose and run docker-compose up -d this in our cli
+- or we could use this instruction to run our application 
+- docker run -e MONGO_URL=mongodb://172.17.0.2:27017 -p 3000:3000 <app name>
